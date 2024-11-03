@@ -15,8 +15,8 @@ const About = () => {
             </p>
 
             {/* box-container */}
-            <div className="flex flex-col md:flex-row  md:gap-16 items-center ">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 md:my-24 md:w-[52%]">
+            <div className="flex flex-col lgSm:flex-row  lgSm:gap-16 items-center ">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 md:my-24 lgSm:w-[52%]">
                 <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                   <span className="flex flow-row gap-3">
                     <i className="fa-solid fa-camera text-4xl text-[#2fd6ff] pb-3"></i>
@@ -74,7 +74,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="md:w-[48%]">
+              <div className="lgSm:w-[48%]">
                 <span className="">WHO ARE WE</span>
                 <h1 className="text-3xl font-bold pb-10">
                   Reduce Risk of Your <br /> Workflow Be Productive
@@ -95,7 +95,7 @@ const About = () => {
                   Molestias, voluptatem fugiat distinctio doloribus accusantium
                   fugit aliquid numquam autem sequi. Est.
                 </p>
-                <button className="bg-[#2fd6ff] p-2 px-10 text-lg my-10 md:mb-0 mt-8 rounded-full">
+                <button className="bg-[#2fd6ff] p-2 px-10 text-lg my-10 lg:mb-0 mt-8 rounded-full">
                   Get Started
                 </button>
               </div>
@@ -103,8 +103,8 @@ const About = () => {
           </div>
         </div>
         {/* numbers */}
-        <div className="bg-[#009999] bg-opacity-30 w-full flex flex-col justify-center items-center mx-auto mb-20 pb-10">
-          <div className="flex flex-wrap gap-6 justify-center items-center mx-auto mt-10">
+        <div className="bg-[#009999] bg-opacity-30 w-full flex flex-col justify-center items-center mx-auto mb-20 pb-10 ">
+          <div className="flex flex-wrap gap-6 justify-center items-center mx-auto mt-10 w-[80%]">
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
             flex flex-col justify-center items-center text-center"

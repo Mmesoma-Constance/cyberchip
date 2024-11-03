@@ -22,7 +22,7 @@ function OverlayNav() {
           position: "fixed",
           top: "0",
           right: "0",
-          backgroundColor: "rgb(0, 0, 77, 0.7)",
+          backgroundColor: "rgb(0, 0, 77, 0.6)",
           transition: "0.5s",
           zIndex: "1",
         }}

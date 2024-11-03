@@ -94,12 +94,12 @@ const Services = () => {
 
         <div className="flex flex-col justify-center items-center mt-28 md:mt-10 my-10 mb-20">
           {/* box-container */}
-          <div className="flex flex-col md:flex-row-reverse gap-6 md:gap-16 items-center ">
-            <div className=" md:w-[52%]">
+          <div className="flex flex-col lg:flex-row-reverse gap-6 md:gap-16 items-center ">
+            <div className=" lg:w-[52%]">
               <img src={blog} alt="" className=" h-full" />
             </div>
 
-            <div className="md:w-[48%]">
+            <div className="lg:w-[48%]">
               <h1 className="text-3xl font-bold pb-5">
                 Benefits With Our Service
               </h1>

@@ -14,7 +14,7 @@ const Contact = () => {
 
           {/* box-container */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-20 justify-between items-center  mt-10 md:mt-20 my-20 w-full">
+          <div className="grid grid-cols-1 mdMd:grid-cols-2 gap-20 justify-between items-center  mt-10 md:mt-20 my-20 w-full">
             <div className="">
               <h1 className="font-bold text-xl">GET IN TOUCH</h1>
               <p>
@@ -65,8 +65,12 @@ const Contact = () => {
                 <i className="fa-solid fa-phone text-4xl text-[#2fd6ff]"></i>
                 <ul className="">
                   <li className="font-bold text-lg">CONTACT</li>
-                  <li className="">Mobile: (+44)-45700-5700</li>
-                  <li className="">Mail: cyberchip@company.com</li>
+                  <li className="">
+                    Mobile: <br /> (+44)-45700-5700
+                  </li>
+                  <li className="">
+                    Mail: <br /> cyberchip@company.com
+                  </li>
                 </ul>
               </div>
 

@@ -12,13 +12,15 @@ const Header = () => {
           {" "}
           <div className="flex gap-1 items-center">
             <img src={logo} alt="" className="w-12" />
-            <h1 className="text-2xl font-bold">CYBERPRO</h1>
+            <h1 className="text-[22px] font-bold audiowide-regular">
+              CYBERPRO
+            </h1>
           </div>{" "}
         </Link>
-        <ul className="hidden md:flex gap-10 text-lg items-center">
+        <ul className="hidden lgSm:flex gap-10 text-lg items-center ubuntu-medium">
           <NavLinks />
         </ul>
-        <div className="flex md:hidden ">
+        <div className="flex lgSm:hidden ubuntu-medium">
           <OverlayNav />
         </div>
       </div>

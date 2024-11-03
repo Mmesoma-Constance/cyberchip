@@ -9,7 +9,7 @@ const Pricing = () => {
       <section className="w-[80%]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
-          <p className="pt-2 md:w-[50%] text-center">
+          <p className="pt-2 lg:w-[50%] text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
             pariatur deleniti officiis, voluptate placeat fugiat quam provident
           </p>
@@ -122,11 +122,11 @@ const Pricing = () => {
 
         <div className="flex flex-col justify-center items-center mt-10 mb-20">
           {/* box-container */}
-          <div className="flex flex-col-reverse md:flex-row-reverse gap-12 md:gap-20 ">
-            <div className=" md:w-[52%]">
+          <div className="flex flex-col-reverse lg:flex-row-reverse gap-12 lg:gap-20 ">
+            <div className=" lg:w-[52%]">
               <div className="flex flex-wrap gap-8">
                 <div className="flex self-start">
-                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70">
+                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
                     1
                   </h1>
                   <ul className="">
@@ -139,7 +139,7 @@ const Pricing = () => {
                   </ul>
                 </div>
                 <div className="flex self-start">
-                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70">
+                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
                     2
                   </h1>
                   <ul className="">
@@ -152,7 +152,7 @@ const Pricing = () => {
                   </ul>
                 </div>
                 <div className="flex self-start">
-                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70">
+                  <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
                     3
                   </h1>
                   <ul className="">
@@ -167,7 +167,7 @@ const Pricing = () => {
               </div>
             </div>
 
-            <div className="md:w-[48%]">
+            <div className="lg:w-[48%]">
               <h1 className="text-3xl font-bold pb-5">
                 Frequently Asked Questions
               </h1>

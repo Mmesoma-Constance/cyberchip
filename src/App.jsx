@@ -10,10 +10,21 @@ import Contact from "./Contact";
 import Blog from "./Blog";
 import Footer from "./Footer";
 
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // Animation duration in milliseconds
+      easing: "ease-in-out", // Animation easing
+      once: true, // Animation only happens once
+    });
+  }, []);
   return (
     <Router>
-      <div className="bg-gradient-to-br from-[#00a1a1] to-[#00004d] text-white min-h-screen">
+      <div className="bg-gradient-to-br from-[#00a1a1] to-[#00004d] text-white min-h-screen ubuntu-regular">
         <div className="overflow-hidden flex flex-col justify-center items-center mx-auto">
           <Header />
           <Routes>

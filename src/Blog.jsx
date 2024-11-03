@@ -20,9 +20,9 @@ const Blog = () => {
           </p>
 
           {/* box-container */}
-          <div className="flex flex-wrap gap-8 justify-center items-center mx-auto mt-10 md:mt-20 my-20">
-            <div className="">
-              <figure className="w-[330px]">
+          <div className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 w-full gap-8 justify-center items-center mx-auto mt-10 md:mt-20 my-20">
+            <div className="flex">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog1}
                   alt=""
@@ -45,7 +45,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="">
-              <figure className="w-[330px]">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog5}
                   alt=""
@@ -68,7 +68,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="">
-              <figure className="w-[330px]">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog3}
                   alt=""
@@ -91,7 +91,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="">
-              <figure className="w-[330px]">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog4}
                   alt=""
@@ -114,7 +114,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="">
-              <figure className="w-[330px]">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog2}
                   alt=""
@@ -137,7 +137,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="">
-              <figure className="w-[330px]">
+              <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog6}
                   alt=""
