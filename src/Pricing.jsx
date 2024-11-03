@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./assets/logo (1).png";
 import logo2 from "./assets/logo.png";
+import Accordion from "./accordion";
 
 const Pricing = () => {
   return (
@@ -178,6 +179,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+        <Accordion />
       </section>
     </>
   );

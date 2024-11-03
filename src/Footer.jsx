@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="p-6 pt-10 sm:px-24 px-10 lg:px-32 flex flex-col md:flex-row  gap-10 md:gap-0 md:justify-between items-center">
           <div className="flex gap-1 items-center self-start">
             <img src={logo} alt="" className="w-12" />
-            <h1 className="text-2xl font-bold">CYBERCHIP</h1>
+            <h1 className="text-2xl font-bold">CYBERPRO</h1>
           </div>
           <div className="flex flex-col md:flex-row md:gap-3 items-center self-start">
             <h2 className="text-2xl font-bold pr-4 self-start">Subcribe now</h2>

@@ -12,7 +12,7 @@ const Header = () => {
           {" "}
           <div className="flex gap-1 items-center">
             <img src={logo} alt="" className="w-12" />
-            <h1 className="text-2xl font-bold">CYBERCHIP</h1>
+            <h1 className="text-2xl font-bold">CYBERPRO</h1>
           </div>{" "}
         </Link>
         <ul className="hidden md:flex gap-10 text-lg items-center">

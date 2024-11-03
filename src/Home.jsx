@@ -32,7 +32,7 @@ const Home = () => {
       <section className="w-[80%] mt-10 md:mt-0">
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
           <div className="flex flex-col gap-4 md:w-[60%]">
-            <h1 className="text-5xl md:text-6xl font-bold leading-[55px] md:leading-[75px]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[55px] md:leading-[75px]">
               24/7 Cybersecurity <br /> Operation Center
             </h1>
             <div className="md:hidden mt-4">
