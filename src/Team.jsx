@@ -19,7 +19,10 @@ const Team = () => {
 
           {/* box-container */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 lg:gap-12 justify-center items-center mx-auto mt-10 md:mt-20 my-20">
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people1}
                 className="w-40 h-40 rounded-full object-cover"
@@ -51,7 +54,10 @@ const Team = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people2}
                 className="w-40 h-40 rounded-full object-cover"
@@ -83,7 +89,10 @@ const Team = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people3}
                 className="w-40 h-40 rounded-full object-cover"
@@ -115,7 +124,10 @@ const Team = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people4}
                 className="w-40 h-40 rounded-full object-cover"
@@ -147,7 +159,10 @@ const Team = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people5}
                 className="w-40 h-40 rounded-full object-cover"
@@ -179,7 +194,10 @@ const Team = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex flex-col gap-2 justify-center items-center text-center">
+            <div
+              className=" flex flex-col gap-2 justify-center items-center text-center"
+              data-aos="zoom-in"
+            >
               <img
                 src={people6}
                 className="w-40 h-40 rounded-full object-cover"
@@ -220,7 +238,10 @@ const Team = () => {
           <h1 className="text-3xl font-bold text-center">
             Our Clients Testimonials
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-8">
+          <div
+            className="grid grid-cols-1 md:grid-cols-2 gap-16 mt-8"
+            data-aos="fade-up"
+          >
             <div className="bg-[#2fd6ff] bg-opacity-30 flex-col-reverse   rounded-xl text-white p-10 shadow-xl flex gap-2">
               <div className="flex gap-2 self-start  pt-4">
                 <img

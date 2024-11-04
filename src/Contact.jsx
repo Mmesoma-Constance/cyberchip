@@ -14,7 +14,10 @@ const Contact = () => {
 
           {/* box-container */}
 
-          <div className="grid grid-cols-1 mdMd:grid-cols-2 gap-20 justify-between items-center  mt-10 md:mt-20 my-20 w-full">
+          <div
+            className="grid grid-cols-1 mdMd:grid-cols-2 gap-20 justify-between items-center  mt-10 md:mt-20 my-20 w-full"
+            data-aos="fade-up"
+          >
             <div className="">
               <h1 className="font-bold text-xl">GET IN TOUCH</h1>
               <p>

@@ -15,8 +15,14 @@ const About = () => {
             </p>
 
             {/* box-container */}
-            <div className="flex flex-col lgSm:flex-row  lgSm:gap-16 items-center ">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 md:my-24 lgSm:w-[52%]">
+            <div
+              className="flex flex-col lgSm:flex-row  lgSm:gap-16 items-center "
+              data-aos="fade-up"
+            >
+              <div
+                className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 lgSm:my-24 lgSm:w-[52%]"
+                data-aos="zoom-in"
+              >
                 <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                   <span className="flex flow-row gap-3">
                     <i className="fa-solid fa-camera text-4xl text-[#2fd6ff] pb-3"></i>
@@ -73,7 +79,6 @@ const About = () => {
                   </p>
                 </div>
               </div>
-
               <div className="lgSm:w-[48%]">
                 <span className="">WHO ARE WE</span>
                 <h1 className="text-3xl font-bold pb-10">
@@ -95,7 +100,7 @@ const About = () => {
                   Molestias, voluptatem fugiat distinctio doloribus accusantium
                   fugit aliquid numquam autem sequi. Est.
                 </p>
-                <button className="bg-[#2fd6ff] p-2 px-10 text-lg my-10 lg:mb-0 mt-8 rounded-full">
+                <button className="bg-[#2fd6ff] p-2 px-10 text-lg mt-10 rounded-full">
                   Get Started
                 </button>
               </div>
@@ -108,6 +113,7 @@ const About = () => {
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
             flex flex-col justify-center items-center text-center"
+              data-aos="zoom-in"
             >
               <i className="fa-solid fa-globe text-[45px] text-[#2fd6ff] pb-3"></i>
               <h2 className="text-center text-3xl font-bold">3,390</h2>
@@ -117,6 +123,7 @@ const About = () => {
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
             flex flex-col justify-center items-center text-center"
+              data-aos="zoom-in"
             >
               <i className="fa-solid fa-address-book text-[45px] text-[#2fd6ff] pb-3"></i>
               <h2 className="text-center text-3xl font-bold">4,785</h2>
@@ -126,6 +133,7 @@ const About = () => {
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
             flex flex-col justify-center items-center text-center"
+              data-aos="zoom-in"
             >
               <i className="fa-solid fa-circle-dollar-to-slot text-[45px] text-[#2fd6ff] pb-3"></i>
               <h2 className="text-center text-3xl font-bold">100%</h2>
@@ -135,6 +143,7 @@ const About = () => {
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
             flex flex-col justify-center items-center text-center"
+              data-aos="zoom-in"
             >
               <i className="fa-solid fa-user-secret text-[45px] text-[#2fd6ff] pb-3"></i>
               <h2 className="text-center text-3xl font-bold">200+</h2>
@@ -149,7 +158,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-[80%] mx-auto">
+        <div className="w-[80%] mx-auto" data-aos="fade-up">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 justify-center my-10 mb-16">
             <div className="flex gap-2 self-start ">
               <ul className="">

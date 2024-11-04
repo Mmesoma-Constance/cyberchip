@@ -21,7 +21,7 @@ const Blog = () => {
 
           {/* box-container */}
           <div className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 w-full gap-8 justify-center items-center mx-auto mt-10 md:mt-20 my-20">
-            <div className="flex">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog1}
@@ -44,7 +44,7 @@ const Blog = () => {
                 </button>
               </figure>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog5}
@@ -67,7 +67,7 @@ const Blog = () => {
                 </button>
               </figure>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog3}
@@ -90,7 +90,7 @@ const Blog = () => {
                 </button>
               </figure>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog4}
@@ -113,7 +113,7 @@ const Blog = () => {
                 </button>
               </figure>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog2}
@@ -136,7 +136,7 @@ const Blog = () => {
                 </button>
               </figure>
             </div>
-            <div className="">
+            <div className="" data-aos="zoom-in">
               <figure className="w-[330px] md:w-auto">
                 <img
                   src={blog6}

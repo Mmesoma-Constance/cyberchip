@@ -15,7 +15,10 @@ const Services = () => {
 
           {/* box-container */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center mx-auto mt-10 md:my-20">
-            <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-wifi text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Office Network Security</h3>
               <p className="opacity-80 text-[15px]">
@@ -27,7 +30,10 @@ const Services = () => {
                 Read more &#8594;
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-bug-slash text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Anti-Malware</h3>
               <p className="opacity-80 text-[15px]">
@@ -39,7 +45,10 @@ const Services = () => {
                 Read more &#8594;
               </button>
             </div>{" "}
-            <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-file-shield text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Data Protection</h3>
               <p className="opacity-80 text-[15px]">
@@ -51,7 +60,10 @@ const Services = () => {
                 Read more &#8594;
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-key text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Password Manager</h3>
               <p className="opacity-80 text-[15px]">
@@ -63,7 +75,10 @@ const Services = () => {
                 Read more &#8594;
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-envelope text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Email Encryption</h3>
               <p className="opacity-80 text-[15px]">
@@ -75,7 +90,10 @@ const Services = () => {
                 Read more &#8594;
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              data-aos="zoom-in"
+            >
               <i className="fa-solid fa-globe text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Secure Browser </h3>
               <p className="opacity-80 text-[15px]">
@@ -94,7 +112,10 @@ const Services = () => {
 
         <div className="flex flex-col justify-center items-center mt-28 md:mt-10 my-10 mb-20">
           {/* box-container */}
-          <div className="flex flex-col lg:flex-row-reverse gap-6 md:gap-16 items-center ">
+          <div
+            className="flex flex-col lg:flex-row-reverse gap-6 md:gap-16 items-center "
+            data-aos="fade-up"
+          >
             <div className=" lg:w-[52%]">
               <img src={blog} alt="" className=" h-full" />
             </div>

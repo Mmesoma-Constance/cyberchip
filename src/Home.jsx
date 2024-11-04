@@ -75,10 +75,7 @@ const Home = () => {
       </section>
 
       {/* partners section */}
-      <section
-        className="bg-[#00004d]  bg-opacity-15 w-full my-20 md:mb-14 p-6 py-8"
-        data-aos="zoom-in"
-      >
+      <section className="bg-[#00004d]  bg-opacity-15 w-full my-20 md:mb-14 p-6 py-8">
         <div
           className="flex flex-col justify-center items-center mx-auto"
           data-aos="zoom-in"

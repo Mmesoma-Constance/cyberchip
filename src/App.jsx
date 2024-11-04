@@ -17,9 +17,9 @@ import "aos/dist/aos.css";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Animation duration in milliseconds
+      duration: 900, // Animation duration in milliseconds
       easing: "ease-in-out", // Animation easing
-      once: true, // Animation only happens once
+      once: false,
     });
   }, []);
   return (

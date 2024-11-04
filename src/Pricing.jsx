@@ -16,7 +16,10 @@ const Pricing = () => {
 
           {/* box-container */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-center gap-10 md:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
-            <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
+              data-aos="zoom-in"
+            >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Beginner</h3>
               <div className="leading-tight">
@@ -49,7 +52,10 @@ const Pricing = () => {
                 Get Started
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-40  h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-40  h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
+              data-aos="zoom-in"
+            >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Business</h3>
               <div className="leading-tight">
@@ -82,7 +88,10 @@ const Pricing = () => {
                 Get Started
               </button>
             </div>
-            <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 ">
+            <div
+              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
+              data-aos="zoom-in"
+            >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Professional</h3>
               <div className="leading-tight">
@@ -120,7 +129,10 @@ const Pricing = () => {
 
         {/* FAQ */}
 
-        <div className="flex flex-col justify-center items-center mt-10 mb-20">
+        <div
+          className="flex flex-col justify-center items-center mt-10 mb-20"
+          data-aos="fade-up"
+        >
           {/* box-container */}
           <div className="flex flex-col-reverse lg:flex-row-reverse gap-12 lg:gap-20 ">
             <div className=" lg:w-[52%]">

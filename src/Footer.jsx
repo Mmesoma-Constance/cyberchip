@@ -3,7 +3,7 @@ import logo from "./assets/logo (3).png";
 const Footer = () => {
   return (
     <>
-      <section class="bg-[#009999] bg-opacity-30 mt-6 overflow-hidden ">
+      <section class="bg-[rgb(0,153,153)] bg-opacity-30 mt-6 overflow-hidden ">
         <div class="p-6 pt-10 sm:px-24 px-10 lgXl:px-32 flex flex-col lgXl:flex-row  gap-10 lgXl:gap-0 lgXl:justify-between items-center">
           <div className="flex gap-1 items-center self-start">
             <img src={logo} alt="" className="w-12" />

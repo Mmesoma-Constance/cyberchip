@@ -100,3 +100,33 @@
   font-weight: 700;
   font-style: normal;
 }
+
+.nav {
+  position: relative;
+  width: 80%;
+  color: white;
+  /* padding: 1.5rem, 1rem; */
+  text-align: center;
+  transition: top 0.3s;
+}
+
+.sticky {
+  position: fixed;
+  background-color: rgb(0, 0, 77);
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* z-index: 1000; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 1rem 125px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .sticky {
+    padding: 1rem 30px;
+  }
+}
