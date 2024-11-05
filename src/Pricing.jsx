@@ -10,16 +10,16 @@ const Pricing = () => {
       <section className="w-[80%]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
-          <p className="pt-2 lg:w-[50%] text-center">
+          <p className="pt-2 md:w-[80%] lgSm:w-[55%] text-center">
             Discover flexible pricing plans tailored to meet your needs, whether
             you’re a startup or an enterprise
           </p>
 
           {/* box-container */}
-          <div className="grid grid-cols-1 mdMd:grid-cols-2 lgSm:grid-cols-3 w-full justify-center gap-10 mdMd:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
+          <div className="grid grid-cols-1 lgSm:grid-cols-3 w-full justify-center gap-10 lgSm:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
-              data-aos="zoom-in"
+              className="bg-[#2fd6ff] bg-opacity-30 w-[300px] md:w-[320px]  rounded-xl text-white p-10 px-6 md:px-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
+              data-aos="fade-up"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Beginner</h3>
@@ -27,7 +27,7 @@ const Pricing = () => {
                 <h2 className="font-bold text-[45px] text-center">$120</h2>
                 <span>/ Per Month</span>
               </div>
-              <ul className="flex flex-col gap-2 pt-3">
+              <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                   <span className="opacity-80">Basic Threat Monitoring</span>
@@ -56,8 +56,8 @@ const Pricing = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-40 w-[320px] h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
-              data-aos="zoom-in"
+              className="bg-[#2fd6ff] bg-opacity-40 w-[300px] md:w-[320px] h-[460px] rounded-xl text px-6 md:px-10-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
+              data-aos="fade-up"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Business</h3>
@@ -65,7 +65,7 @@ const Pricing = () => {
                 <h2 className="font-bold text-[45px] text-center">$180</h2>
                 <span>/ Per Month</span>
               </div>
-              <ul className="flex flex-col gap-2 pt-3">
+              <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                   <span className="opacity-80">Advanced Threat Detection</span>
@@ -94,8 +94,8 @@ const Pricing = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 w-[320px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
-              data-aos="zoom-in"
+              className="bg-[#2fd6ff] bg-opacity-30 w-[300px] md:w-[320px] rounded-xl text-white p-10 px-6 md:px-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
+              data-aos="fade-up"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
               <h3 className="font-semibold text-lg">Professional</h3>
@@ -103,7 +103,7 @@ const Pricing = () => {
                 <h2 className="font-bold text-[45px] text-center">$200</h2>
                 <span>/ Per Month</span>
               </div>
-              <ul className="flex flex-col gap-2 pt-3">
+              <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                   <span className="opacity-80">Full Threat Management</span>

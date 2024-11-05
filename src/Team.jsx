@@ -12,7 +12,7 @@ const Team = () => {
       <section className=" w-[80%]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Our Team</h1>
-          <p className="pt-3 md:w-[55%] text-center">
+          <p className="pt-3 md:w-[80%] lgSm:w-[55%] text-center">
             Get to know our team of experienced cybersecurity experts,
             developers, and consultants committed to keeping you safe online
           </p>

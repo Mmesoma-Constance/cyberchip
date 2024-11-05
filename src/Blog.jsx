@@ -15,15 +15,15 @@ const Blog = () => {
           <h1 className="text-4xl font-bold pt-5 text-center">
             Latest Blog & Articles
           </h1>
-          <p className="pt-3 md:w-[55%] text-center">
+          <p className="pt-3 md:w-[80%] lgSm:w-[55%] text-center">
             Stay updated with the latest cybersecurity trends, tips, and
             insights from our experts in the CyberPro blog
           </p>
 
           {/* box-container */}
-          <div className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3 w-full gap-8 justify-center items-center mx-auto mt-10 md:mt-20 my-20">
+          <div className="flex flex-wrap md:grid md:grid-cols-2 lgSm:grid-cols-3  gap-8 justify-center items-center mx-auto mt-10 md:mt-20 my-20 w-[100%] ">
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className="  w-auto">
                 <img
                   src={blog1}
                   alt=""
@@ -46,7 +46,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className=" md:w-auto">
                 <img
                   src={blog5}
                   alt=""
@@ -69,7 +69,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className=" md:w-auto">
                 <img
                   src={blog3}
                   alt=""
@@ -92,7 +92,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className=" md:w-auto">
                 <img
                   src={blog4}
                   alt=""
@@ -115,7 +115,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className=" md:w-auto">
                 <img
                   src={blog2}
                   alt=""
@@ -138,7 +138,7 @@ const Blog = () => {
               </figure>
             </div>
             <div className="" data-aos="zoom-in">
-              <figure className="w-[330px] md:w-auto">
+              <figure className=" md:w-auto">
                 <img
                   src={blog6}
                   alt=""

@@ -35,7 +35,7 @@ const Home = () => {
       <section className="w-[80%] mt-10 mdXl:mt-0">
         <div className="flex flex-col mdXl:flex-row justify-between items-center w-full">
           <div className="flex flex-col gap-4 mdXl:w-[60%]" data-aos="zoom-in">
-            <h1 className="text-[48px] sm:text-[50px] lg:text-[56px] lgSm:text-[65px] font-bold leading-[50px] sm:leading-[54px] lg:leading-[57px] lgSm:leading-[75px]">
+            <h1 className="text-[48px] sm:text-[50px] md:text-[47px] lg:text-[50px] lgSm:text-[65px] font-bold leading-[50px] sm:leading-[54px] lg:leading-[57px] lgSm:leading-[75px]">
               <span className="rye-regular lgSm:text-[58px]">24/7</span>
               <span className="judson-bold">
                 {" "}
@@ -61,8 +61,9 @@ const Home = () => {
               <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff]  p-3  px-8 rounded-full text-lg">
                 Get Started
               </button>
+
               <button className="opacity-95 hover:opacity-100 bg-[#00004d] bg-opacity-40 p-3  px-8 rounded-full text-lg">
-                Contact Us
+                <Link to="/contact"> Contact Us </Link>
               </button>
             </div>
           </div>
@@ -147,7 +148,7 @@ const Home = () => {
       <section className="w-[80%] mx-auto mb-20 md:mb-10" data-aos="fade-up">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-4xl font-bold pt-5">About Us</h1>
-          <p className="pt-3 md:w-[55%] text-center">
+          <p className="pt-3 md:w-[80%] lgSm:w-[55%] text-center">
             Learn more about CyberPro's mission, values, and the passion driving
             our team to deliver top-notch cybersecurity and technology solutions
           </p>
@@ -259,7 +260,7 @@ const Home = () => {
           data-aos="fade-up"
         >
           <h1 className="text-4xl font-bold pt-5">Services</h1>
-          <p className="pt-3 w-[80%] md:w-[50%] text-center">
+          <p className="pt-3 w-[80%] md:w-[80%] lgSm:w-[55%] text-center">
             Explore our wide range of services, from cybersecurity consulting to
             ethical hacking, designed to protect your business from evolving
             threats
@@ -267,15 +268,15 @@ const Home = () => {
 
           {/* box-container */}
           <div
-            className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3  gap-6 justify-center w-[80%] items-center mx-auto my-14"
+            className="flex flex-wrap mdMd:grid mdMd:grid-cols-2 lgSm:grid-cols-3  gap-6 justify-center w-[80%] items-center mx-auto my-14"
             data-aos="fade-up"
           >
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-wifi text-[45px] text-[#2fd6ff] pb-3"></i>
-              <h3 className="text-2xl font-bold">Office Network Security</h3>
+              <h3 className="text-2xl font-bold">Office Security</h3>
               <p className="opacity-80 text-[15px]">
                 Safeguard your office network with comprehensive security
                 measures to protect against intrusions and unauthorized access,
@@ -286,7 +287,7 @@ const Home = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-bug-slash text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -301,7 +302,7 @@ const Home = () => {
               </button>
             </div>{" "}
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-file-shield text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -317,7 +318,7 @@ const Home = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px]  rounded-xl text-white p-8 shadow-xl  gap-2 hidden md:flex md:flex-col lg:hidden"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px]  rounded-xl text-white p-8 shadow-xl  gap-2 hidden md:flex md:flex-col lgSm:hidden"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-key text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -347,15 +348,15 @@ const Home = () => {
         data-aos="fade-up"
       >
         <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
-        <p className="pt-2  md:w-[65%] text-center">
+        <p className="pt-2  md:w-[80%] lgSm:w-[55%] text-center">
           Discover flexible pricing plans tailored to meet your needs, whether
           you’re a startup or an enterprise
         </p>
 
         {/* box-container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-center gap-10 md:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
+        <div className="grid grid-cols-1  lgSm:grid-cols-3 w-full justify-center gap-10 lgSm:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
           <div
-            className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
+            className="bg-[#2fd6ff] bg-opacity-30 w-[300px] md:w-[320px]  rounded-xl text-white p-10 px-6 md:px-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
             data-aos="fade-up"
           >
             {/* <img src={logo} alt="" className="w-28" /> */}
@@ -364,7 +365,7 @@ const Home = () => {
               <h2 className="font-bold text-[45px] text-center">$120</h2>
               <span>/ Per Month</span>
             </div>
-            <ul className="flex flex-col gap-2 pt-3">
+            <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                 <span className="opacity-80">Basic Threat Monitoring</span>
@@ -391,7 +392,7 @@ const Home = () => {
             </button>
           </div>
           <div
-            className="bg-[#2fd6ff] bg-opacity-40 w-[320px] h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
+            className="bg-[#2fd6ff] bg-opacity-40 w-[300px] md:w-[320px] h-[460px] rounded-xl text px-6 md:px-10-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
             data-aos="fade-up"
           >
             {/* <img src={logo} alt="" className="w-28" /> */}
@@ -400,7 +401,7 @@ const Home = () => {
               <h2 className="font-bold text-[45px] text-center">$180</h2>
               <span>/ Per Month</span>
             </div>
-            <ul className="flex flex-col gap-2 pt-3">
+            <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                 <span className="opacity-80">Advanced Threat Detection</span>
@@ -427,7 +428,7 @@ const Home = () => {
             </button>
           </div>
           <div
-            className="bg-[#2fd6ff] bg-opacity-30 w-[320px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
+            className="bg-[#2fd6ff] bg-opacity-30 w-[300px] md:w-[320px] rounded-xl text-white p-10 px-6 md:px-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
             data-aos="fade-up"
           >
             {/* <img src={logo} alt="" className="w-28" /> */}
@@ -436,7 +437,7 @@ const Home = () => {
               <h2 className="font-bold text-[45px] text-center">$200</h2>
               <span>/ Per Month</span>
             </div>
-            <ul className="flex flex-col gap-2 pt-3">
+            <ul className="flex flex-col gap-2 pt-3 text-[15px] md:text-base">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
                 <span className="opacity-80">Full Threat Management</span>
@@ -472,7 +473,7 @@ const Home = () => {
           data-aos="fade-up"
         >
           <h1 className="text-4xl font-bold pt-5">Our Team</h1>
-          <p className="pt-3 w-[80%] md:w-[50%] text-center">
+          <p className="pt-3 w-[80%] md:w-[80%] lgSm:w-[55%] text-center">
             Get to know our team of experienced cybersecurity experts,
             developers, and consultants committed to keeping you safe online
           </p>
@@ -634,22 +635,22 @@ const Home = () => {
       {/* blog section */}
 
       <section
-        className="flex flex-col justify-center items-center mt-16"
+        className="flex flex-col justify-center items-center mt-16 w-[80%]"
         data-aos="fade-up"
       >
         <h1 className="text-4xl font-bold pt-5 w-[80%] text-center">
           Latest Blog & Articles
         </h1>
-        <p className="pt-3 w-[80%] md:w-[55%] text-center">
+        <p className="pt-3 w-[80%] md:w-[80%] lgSm:w-[55%] text-center">
           Stay updated with the latest cybersecurity trends, tips, and insights
           from our experts in the CyberPro blog
         </p>
         <div
-          className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3  gap-8 justify-center items-center mx-auto mt-10 md:mt-20 mb-10 w-[80%]"
+          className="flex flex-wrap md:grid md:grid-cols-2 lgSm:grid-cols-3  gap-8 justify-center items-center mx-auto mt-10 md:mt-20 mb-10 w-[100%]"
           data-aos="fade-up"
         >
           <div className="" data-aos="fade-up">
-            <figure className="w-[330px] md:w-auto">
+            <figure className="w-auto">
               <img
                 src={blog1}
                 alt=""
@@ -672,7 +673,7 @@ const Home = () => {
             </figure>
           </div>
           <div className="" data-aos="fade-up">
-            <figure className="w-[330px] md:w-auto">
+            <figure className="w-auto">
               <img
                 src={blog5}
                 alt=""
@@ -695,7 +696,7 @@ const Home = () => {
             </figure>
           </div>
           <div className="" data-aos="fade-up">
-            <figure className="w-[330px] md:w-auto">
+            <figure className="w-auto">
               <img
                 src={blog3}
                 alt=""
@@ -719,7 +720,7 @@ const Home = () => {
           </div>
 
           <div className="hidden md:flex lg:hidden" data-aos="fade-up">
-            <figure className="w-[330px] md:w-auto">
+            <figure className="w-auto">
               <img
                 src={blog4}
                 alt=""

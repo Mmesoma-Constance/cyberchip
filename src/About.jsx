@@ -8,7 +8,7 @@ const About = () => {
         <div className="w-[80%] mx-auto">
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-4xl font-bold pt-5">About Us</h1>
-            <p className="pt-3 md:w-[55%] text-center">
+            <p className="pt-3 md:w-[80%] lgSm:w-[55%] text-center">
               Learn more about CyberPro's mission, values, and the passion
               driving our team to deliver top-notch cybersecurity and technology
               solutions

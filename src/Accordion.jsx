@@ -33,12 +33,12 @@ const Accordion = () => {
       <div className="flex flex-wrap gap-8">
         {accordionItems.map((item, index) => (
           <div key={item.id} className="flex self-start">
-            <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
+            <h1 className="w-12 sm:w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
               {item.id}
             </h1>
             <ul>
               <li
-                className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer w-[300px] sm:w-[450px] flex justify-between"
+                className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer  text-sm sm:text-base w-[250px] sm:w-[450px] lg:w-auto lgSm:w-[450px] flex justify-between gap-6"
                 onClick={() => toggleItem(index)}
               >
                 <span>{item.title}</span>
@@ -51,7 +51,7 @@ const Accordion = () => {
                 </span>
               </li>
               {openIndex === index && (
-                <li className="p-5 shadow-xl bg-[#00b3b3] bg-opacity-20 w-[300px] sm:w-[450px] ">
+                <li className="p-5 shadow-xl bg-[#00b3b3] bg-opacity-20 w-[250px] sm:w-[450px] lg:w-auto lgSm:w-[450px] ">
                   <p>{item.content}</p>
                 </li>
               )}

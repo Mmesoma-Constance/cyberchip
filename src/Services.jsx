@@ -8,20 +8,20 @@ const Services = () => {
       <section className="w-[80%]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Services</h1>
-          <p className="pt-3  md:w-[55%] text-center">
+          <p className="pt-3 md:w-[80%] lgSm:w-[55%] text-center">
             Explore our wide range of services, from cybersecurity consulting to
             ethical hacking, designed to protect your business from evolving
             threats
           </p>
 
           {/* box-container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center mx-auto mt-10 md:my-20">
+          <div className="grid grid-cols-1 mdMd:grid-cols-2 lgSm:grid-cols-3 gap-6 justify-center items-center mx-auto mt-10 md:my-20">
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-wifi text-[45px] text-[#2fd6ff] pb-3"></i>
-              <h3 className="text-2xl font-bold">Office Network Security</h3>
+              <h3 className="text-2xl font-bold">Office Security</h3>
               <p className="opacity-80 text-[15px]">
                 Safeguard your office network with comprehensive security
                 measures to protect against intrusions and unauthorized access,
@@ -32,7 +32,7 @@ const Services = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-bug-slash text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -47,7 +47,7 @@ const Services = () => {
               </button>
             </div>{" "}
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-file-shield text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -63,7 +63,7 @@ const Services = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-key text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -78,7 +78,7 @@ const Services = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-envelope text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -93,7 +93,7 @@ const Services = () => {
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30 h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-fit lg:h-[330px]  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="zoom-in"
             >
               <i className="fa-solid fa-globe text-[45px] text-[#2fd6ff] pb-3"></i>
@@ -121,7 +121,7 @@ const Services = () => {
 
             <div className="lg:w-[48%]">
               <h1 className="text-3xl font-bold pb-5">
-                Benefits With Our Services
+                Benefit With Our Services
               </h1>
               <p className="opacity-90 text-[16px]">
                 Our solutions guard against cyber threats like malware and
