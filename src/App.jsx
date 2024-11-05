@@ -18,11 +18,12 @@ import ScrollToTop from "./ScrollToTop";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 700, // Animation duration in milliseconds
-      easing: "ease-in-out", // Animation easing
+      duration: 700,
+      easing: "ease-in-out",
       once: false,
     });
   }, []);
+
   return (
     <Router>
       <div className="bg-gradient-to-br from-[#00a1a1] to-[#00004d] text-white min-h-screen ubuntu-regular">
@@ -46,6 +47,3 @@ function App() {
 }
 
 export default App;
-{
-  /* from-[#00b3b3] to-[#142b3f] */
-}
