@@ -48,14 +48,14 @@ const Contact = () => {
                   placeholder="Your message*"
                 ></textarea>
               </form>
-              <button className="bg-[#2fd6ff] p-2 px-8  rounded-full mt-6 self-start">
+              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2.5 px-8  rounded-full mt-6 self-start">
                 SEND MESSAGE
               </button>
             </div>
 
             <div className="bg-[#00b3b3] bg-opacity-40 rounded-xl  h-[450px] justify-center items-center p-10 md:px-12 flex flex-col gap-12">
               <div className="flex gap-6 self-start">
-                <i className="fa-solid fa-location-dot text-4xl text-[#2fd6ff]"></i>
+                <i className="fa-solid fa-location-dot text-[27px] sm:text-4xl text-[#2fd6ff]"></i>
                 <ul className="">
                   <li className="font-bold text-lg">OUR ADDRESS</li>
                   <li className="">
@@ -65,20 +65,20 @@ const Contact = () => {
               </div>
 
               <div className="flex gap-6 self-start">
-                <i className="fa-solid fa-phone text-4xl text-[#2fd6ff]"></i>
+                <i className="fa-solid fa-phone text-3xl sm:[27px]t-4xl text-[#2fd6ff]"></i>
                 <ul className="">
                   <li className="font-bold text-lg">CONTACT</li>
                   <li className="">
-                    Mobile: <br /> (+44)-45700-5700
+                    Mobile: <br className="md:hidden" /> (+44)-45700-5700
                   </li>
                   <li className="">
-                    Mail: <br /> cyberchip@company.com
+                    Mail: <br className="md:hidden" /> cyberchip@company.com
                   </li>
                 </ul>
               </div>
 
               <div className="flex gap-6 self-start">
-                <i className="fa-solid fa-paper-plane text-4xl text-[#2fd6ff]"></i>
+                <i className="fa-solid fa-paper-plane text-3[27px]sm:text-4xl text-[#2fd6ff]"></i>
                 <ul className="">
                   <li className="font-bold text-lg">SOCIAL MEDIA</li>
                   <ul className="flex gap-4 pt-1">

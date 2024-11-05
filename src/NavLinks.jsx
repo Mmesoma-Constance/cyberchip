@@ -24,7 +24,7 @@ const NavLinks = () => {
       </li>
       <li>
         <Link to="/contact">
-          <button className="bg-[#2fd6ff] p-2 px-8 ml-8 rounded-full">
+          <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-8 ml-8 rounded-full">
             Contact
           </button>
         </Link>{" "}

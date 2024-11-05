@@ -22,7 +22,8 @@ function OverlayNav() {
           position: "fixed",
           top: "0",
           right: "0",
-          backgroundColor: "rgb(0, 0, 77, 0.6)",
+          background:
+            "linear-gradient(to top left, #006b6b, rgb(0, 0, 77, 0.9))",
           transition: "0.5s",
           zIndex: "1",
         }}

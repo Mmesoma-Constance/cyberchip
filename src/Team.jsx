@@ -245,21 +245,22 @@ const Team = () => {
             <div className="bg-[#2fd6ff] bg-opacity-30 flex-col-reverse   rounded-xl text-white p-10 shadow-xl flex gap-2">
               <div className="flex gap-2 self-start  pt-4">
                 <img
-                  src={people2}
+                  src={people1}
                   alt=""
                   className="w-10 h-10 object-cover rounded-full"
                 />
                 <ul className="">
                   <li className="font-bold">CJ Martins</li>
-                  <li className="text-[12px]">CEO Jeruslem</li>
+                  <li className="text-[14px]">CEO of SecureWare Solutions</li>
                 </ul>
               </div>
 
               <p className="opacity-80 text-[16px] italic">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione
-                adipisci"
+                "Working with CyberPro has been one of the best decisions for
+                our company. Their tailored cybersecurity solutions and
+                round-the-clock support have not only protected us but have also
+                allowed us to focus on growth without fear of data breaches.
+                Highly recommend their services!"
               </p>
               <i className="fa-solid fa-quote-left text-4xl text-[#2fd6ff]"></i>
             </div>{" "}
@@ -271,16 +272,17 @@ const Team = () => {
                   className="w-10 h-10 object-cover rounded-full"
                 />
                 <ul className="">
-                  <li className="font-bold">CJ Martins</li>
-                  <li className="text-[12px]">CEO Jeruslem</li>
+                  <li className="font-bold">Linda Shalom</li>
+                  <li className="text-[14px]">CTO of Tech Innovators Inc.</li>
                 </ul>
               </div>
 
               <p className="opacity-80 text-[16px] italic">
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione
-                adipisci"
+                "CyberPro has been an invaluable partner in our digital security
+                journey. Their team’s proactive approach and expertise have
+                given us peace of mind, knowing that our data is safe from
+                emerging threats. We've seen a significant reduction in security
+                incidents since partnering with CyberPro."
               </p>
               <i className="fa-solid fa-quote-left text-4xl text-[#2fd6ff]"></i>
             </div>

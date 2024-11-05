@@ -7,6 +7,7 @@ import blog5 from "./assets/blog5.jpeg";
 import blog6 from "./assets/blog6.png";
 
 const Blog = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <section className="w-[80%] flex flex-col justify-center items-center mx-auto">
@@ -30,16 +31,16 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    The Importance of Cybersecurity in a Digital World
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    Cybersecurity is crucial for safeguarding businesses in
+                    today’s digital era. Learn how a strong defense protects
+                    your company, customers, and data integrity.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>
@@ -53,16 +54,16 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    Top 5 Cyber Threats Business Face in {currentYear}
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    From phishing to ransomware, cyber threats are more
+                    dangerous than ever. Discover the top risks and how your
+                    business can stay protected.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>
@@ -76,16 +77,16 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    How Data Encryption Protects Your Business and Builds Trust
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    Encryption is a powerful tool for data security. See how it
+                    protects sensitive information and helps you maintain
+                    customer trust.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>
@@ -99,16 +100,16 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    Cybersecurity Best Practices for small Businesses
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    Effective cybersecurity doesn’t have to be expensive. Here
+                    are simple, budget-friendly ways for small businesses to
+                    stay secure.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>
@@ -122,16 +123,16 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    What to Do If Your Business Experiences a Data Breach
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    Quick action is essential after a data breach. Learn the
+                    steps you should take to reduce impact and protect your
+                    business.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>
@@ -145,16 +146,15 @@ const Blog = () => {
                 />
                 <figcaption className="pt-3">
                   <h3 className="font-bold text-xl">
-                    How to manage your work against fruad hackers{" "}
+                    The Future of Cybersecurity: Trends to Watch
                   </h3>
 
                   <p className="opacity-70 pt-3 text-[15px]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Minima est, libero cum similique corporis quidem nisi odit
-                    earum eius ipsam?
+                    Cybersecurity is evolving rapidly. Explore emerging trends
+                    that are shaping the future of digital protection.
                   </p>
                 </figcaption>
-                <button className="self-start font-semibold bg-transparent hover:font-bold mt-5">
+                <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
                   Read more &#8594;
                 </button>
               </figure>

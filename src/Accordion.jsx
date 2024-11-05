@@ -1,60 +1,66 @@
-// // Accordion.js
-// import React, { useState } from "react";
-// import "./Accordion.css";
+import React, { useState } from "react";
 
-// const Accordion = () => {
-//   const [activeIndex, setActiveIndex] = useState(null);
+const Accordion = () => {
+  const [openIndex, setOpenIndex] = useState(null);
 
-//   const toggleAccordion = (index) => {
-//     setActiveIndex(activeIndex === index ? null : index);
-//   };
+  const accordionItems = [
+    {
+      id: 1,
+      title: "Why is cybersecurity important for my business?",
+      content:
+        "Cybersecurity is crucial because it protects your business data and clients’ information from breaches and cyber attacks.",
+    },
+    {
+      id: 2,
+      title: "How do you ensure my data stays secure?",
+      content:
+        "We implement advanced encryption methods, regular security audits, and robust access controls to secure your data.",
+    },
+    {
+      id: 3,
+      title: "Do you offer customized security solutions?",
+      content:
+        "Yes, we provide tailored security solutions based on your business’s specific needs and requirements.",
+    },
+  ];
 
-//   return (
-//     <div className="accordion-container">
-//       <h2>Accordion</h2>
+  const toggleItem = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
-//       <button
-//         className={`accordion ${activeIndex === 0 ? "active" : ""}`}
-//         onClick={() => toggleAccordion(0)}
-//       >
-//         Section 1
-//       </button>
-//       <div className={`panel ${activeIndex === 0 ? "open" : ""}`}>
-//         console.log(
-//         <p>
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
-//           urna sit amet nulla.
-//         </p>
-//         )
-//       </div>
+  return (
+    <div className="lg:w-[52%]">
+      <div className="flex flex-wrap gap-8">
+        {accordionItems.map((item, index) => (
+          <div key={item.id} className="flex self-start">
+            <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
+              {item.id}
+            </h1>
+            <ul>
+              <li
+                className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer w-[300px] md:w-[450px] flex justify-between"
+                onClick={() => toggleItem(index)}
+              >
+                <span>{item.title}</span>
+                <span>
+                  <i
+                    className={`fa-solid ${
+                      openIndex === index ? "fa-chevron-up" : "fa-chevron-down"
+                    }`}
+                  />
+                </span>
+              </li>
+              {openIndex === index && (
+                <li className="p-5 shadow-xl bg-[#00b3b3] bg-opacity-20 w-[300px] md:w-[450px] ">
+                  <p>{item.content}</p>
+                </li>
+              )}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-//       <button
-//         className={`accordion ${activeIndex === 1 ? "active" : ""}`}
-//         onClick={() => toggleAccordion(1)}
-//       >
-//         Section 2
-//       </button>
-//       <div className={`panel ${activeIndex === 1 ? "open" : ""}`}>
-//         <p>
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
-//           urna sit amet nulla.
-//         </p>
-//       </div>
-
-//       <button
-//         className={`accordion ${activeIndex === 2 ? "active" : ""}`}
-//         onClick={() => toggleAccordion(2)}
-//       >
-//         Section 3
-//       </button>
-//       <div className={`panel ${activeIndex === 2 ? "open" : ""}`}>
-//         <p>
-//           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
-//           urna sit amet nulla. why are tou not working
-//         </p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Accordion;
+export default Accordion;

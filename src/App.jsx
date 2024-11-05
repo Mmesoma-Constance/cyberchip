@@ -13,6 +13,7 @@ import Footer from "./Footer";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <div className="bg-gradient-to-br from-[#00a1a1] to-[#00004d] text-white min-h-screen ubuntu-regular">
         <div className="overflow-hidden flex flex-col justify-center items-center mx-auto">
           <Header />
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

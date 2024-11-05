@@ -32,8 +32,8 @@ const About = () => {
                   </span>
 
                   <p className="opacity-80 text-[15px] pt-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt id eum provident.
+                    Real-time monitoring solutions to keep your premises secure
+                    and detect unauthorized activities
                   </p>
                 </div>
 
@@ -46,8 +46,8 @@ const About = () => {
                   </span>
 
                   <p className="opacity-80 text-[15px] pt-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt id eum provident.
+                    Protect sensitive folders from unauthorized access with our
+                    reliable security solutions
                   </p>
                 </div>
 
@@ -60,8 +60,8 @@ const About = () => {
                   </span>
 
                   <p className="opacity-80 text-[15px] pt-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt id eum provident.
+                    Complete encryption solutions that ensure data privacy from
+                    sender to recipient
                   </p>
                 </div>
 
@@ -74,20 +74,21 @@ const About = () => {
                   </span>
 
                   <p className="opacity-80 text-[15px] pt-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nesciunt id eum provident.
+                    Biometric security options that provide an extra layer of
+                    protection, accessible only to authorized users
                   </p>
                 </div>
               </div>
               <div className="lgSm:w-[48%]">
                 <span className="">WHO ARE WE</span>
                 <h1 className="text-3xl font-bold pb-10">
-                  Reduce Risk of Your <br /> Workflow Be Productive
+                  Empowering Businesses <br /> Through Cyber Protection
                 </h1>
-                <p className="opacity-80 text-[16px]">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Quasi odio tempora porro error non assumenda aliquam, velit
-                  reprehenderit veniam, itaque hic,
+                <p className="opacity-90 text-[16px]">
+                  We are a dedicated team focused on minimizing cybersecurity
+                  risks for businesses. Our proactive approach and advanced
+                  tools ensure you can focus on productivity without worrying
+                  about cyber threats."
                   <br />
                   <br />
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -95,12 +96,12 @@ const About = () => {
                   Expedita dolore ipsum doloremque officiis perferendis!
                 </p>
                 <br />
-                <p className="">
+                <p className="opacity-90">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias, voluptatem fugiat distinctio doloribus accusantium
                   fugit aliquid numquam autem sequi. Est.
                 </p>
-                <button className="bg-[#2fd6ff] p-2 px-10 text-lg mt-10 rounded-full">
+                <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2.5 px-10 text-lg mt-10 rounded-full">
                   Get Started
                 </button>
               </div>
@@ -108,7 +109,7 @@ const About = () => {
           </div>
         </div>
         {/* numbers */}
-        <div className="bg-[#009999] bg-opacity-30 w-full flex flex-col justify-center items-center mx-auto mb-20 pb-10 ">
+        <div className="bg-[#009999] bg-opacity-30 w-full flex flex-col justify-center items-center mx-auto mt-10 lgSm:mt-0 mb-20 pb-10 ">
           <div className="flex flex-wrap gap-6 justify-center items-center mx-auto mt-10 w-[80%]">
             <div
               className="bg-[#00004d] bg-opacity-25 rounded-xl text-white p-4 px-6 lg:px-12 shadow-xl
@@ -152,7 +153,7 @@ const About = () => {
           </div>
           <div className="w-[80%] flex justify-center items-center mt-4 md:mt-0">
             {" "}
-            <button class="self-start md:self-auto mt-6 md:mt-14 bg-[#2fd6ff] text-white font-bold text-lg p-3 px-10 rounded-full">
+            <button class="opacity-95 hover:opacity-100 self-start md:self-auto mt-6 md:mt-14 bg-[#2fd6ff] text-white font-bold text-lg p-3 px-10 rounded-full">
               Get Started
             </button>
           </div>

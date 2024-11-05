@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "./assets/logo (1).png";
 import logo2 from "./assets/logo.png";
-// import Accordion from "./accordion";
+import Accordion from "./accordion";
+import "./App.css";
 
 const Pricing = () => {
   return (
@@ -11,13 +12,13 @@ const Pricing = () => {
           <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
           <p className="pt-2 lg:w-[50%] text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            pariatur deleniti officiis, quam provident
           </p>
 
           {/* box-container */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-center gap-10 md:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
             <div
-              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
+              className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
               data-aos="zoom-in"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
@@ -29,31 +30,33 @@ const Pricing = () => {
               <ul className="flex flex-col gap-2 pt-3">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Basic Threat Monitoring</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">24/7 Support</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Secure Data Backup</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Firewall Protection</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">
+                    Basic Vulnerability Scanning
+                  </span>
                 </li>
               </ul>
-              <button className="bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
+              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
                 Get Started
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-40  h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
+              className="bg-[#2fd6ff] bg-opacity-40 w-[320px] h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
               data-aos="zoom-in"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
@@ -65,31 +68,33 @@ const Pricing = () => {
               <ul className="flex flex-col gap-2 pt-3">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Advanced Threat Detection</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">24/7 Support</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Data Encryption</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Intrution Prevention</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">
+                    Basic Vulnerability Scanning
+                  </span>
                 </li>
               </ul>
-              <button className="bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
+              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
                 Get Started
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
+              className="bg-[#2fd6ff] bg-opacity-30 w-[320px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
               data-aos="zoom-in"
             >
               {/* <img src={logo} alt="" className="w-28" /> */}
@@ -101,26 +106,26 @@ const Pricing = () => {
               <ul className="flex flex-col gap-2 pt-3">
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Full Threat Management</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Dedicated Security Expert</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Secure Data Backup</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Firewall Protection</span>
                 </li>
                 <li className="flex gap-1.5 items-center">
                   <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                  <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                  <span className="opacity-80">Firewall, IPS, and IDS</span>
                 </li>
               </ul>
-              <button className="bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
+              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
                 Get Started
               </button>
             </div>
@@ -135,18 +140,24 @@ const Pricing = () => {
         >
           {/* box-container */}
           <div className="flex flex-col-reverse lg:flex-row-reverse gap-12 lg:gap-20 ">
-            <div className=" lg:w-[52%]">
+            {/* <div className=" lg:w-[52%]">
               <div className="flex flex-wrap gap-8">
                 <div className="flex self-start">
                   <h1 className="w-16 font-bold text-5xl text-[#2fd6ff] opacity-70 rye-regular">
                     1
                   </h1>
                   <ul className="">
-                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer">
-                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer  md:w-[450px] flex justify-between">
+                      <span>
+                        Why is cybersecurity important for my business
+                      </span>
+                      <span className="">
+                        {" "}
+                        <i className="fa-solid fa-chevron-down"></i>{" "}
+                      </span>
                     </li>
                     <li className="">
-                      <p className="opacity-75 "></p>
+                      <p className="opacity-75 "></p> 
                     </li>
                   </ul>
                 </div>
@@ -155,8 +166,14 @@ const Pricing = () => {
                     2
                   </h1>
                   <ul className="">
-                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer">
-                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer  md:w-[450px] flex justify-between">
+                      <span className="">
+                        How do you ensure my data stays secure?
+                      </span>
+                      <span className="">
+                        {" "}
+                        <i className="fa-solid fa-chevron-down"> </i>
+                      </span>
                     </li>
                     <li className="">
                       <p className="opacity-75 "></p>
@@ -168,8 +185,12 @@ const Pricing = () => {
                     3
                   </h1>
                   <ul className="">
-                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer">
-                      Lorem ipsum dolor sit amet consectetur adipisicing.
+                    <li className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer  md:w-[450px] flex justify-between">
+                      <span> Do you offer customized security solutions?</span>
+                      <span className="">
+                        {" "}
+                        <i className="fa-solid fa-chevron-down"> </i>
+                      </span>
                     </li>
                     <li className="">
                       <p className="opacity-75 "></p>
@@ -177,8 +198,8 @@ const Pricing = () => {
                   </ul>
                 </div>
               </div>
-            </div>
-
+            </div> */}
+            <Accordion />
             <div className="lg:w-[48%]">
               <h1 className="text-3xl font-bold pb-5">
                 Frequently Asked Questions
@@ -191,7 +212,6 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        {/* <Accordion /> */}
       </section>
     </>
   );

@@ -36,22 +36,24 @@ const Header = () => {
     <>
       <div
         ref={navRef}
-        className="nav flex justify-between  items-center py-10 gap-24 items"
+        className="nav flex justify-between items-center py-10 gap-24 items  w-full"
       >
-        <Link to="/">
-          {" "}
-          <div className="flex gap-1 items-center">
-            <img src={logo} alt="" className="w-10 sm:w-12" />
-            <h1 className="text-[19px] sm:text-[22px] font-bold audiowide-regular">
-              CYBERPRO
-            </h1>
-          </div>{" "}
-        </Link>
-        <ul className="hidden lgSm:flex gap-10 text-lg items-center ubuntu-medium">
-          <NavLinks />
-        </ul>
-        <div className="flex lgSm:hidden ubuntu-medium">
-          <OverlayNav />
+        <div className="w-[80%] flex justify-between items-center mx-auto">
+          <Link to="/">
+            {" "}
+            <div className="flex gap-1 items-center">
+              <img src={logo} alt="" className="w-10 sm:w-12" />
+              <h1 className="text-[19px] sm:text-[22px] font-bold audiowide-regular">
+                CYBERPRO
+              </h1>
+            </div>{" "}
+          </Link>
+          <ul className="hidden lgSm:flex gap-10 text-lg items-center ubuntu-medium">
+            <NavLinks />
+          </ul>
+          <div className="flex lgSm:hidden ubuntu-medium">
+            <OverlayNav />
+          </div>
         </div>
       </div>
     </>

@@ -20,7 +20,7 @@ const Footer = () => {
               class="w-full md:w-80 p-2 px-6 bg-transparent border rounded-full text-white outline-none mt-3 md:mt-0"
               placeholder="Your email"
             />
-            <button class="self-start md:self-auto mt-6 md:mt-0 bg-[#2fd6ff] text-white font-bold text-[15px] p-3 px-8 rounded-full">
+            <button class="opacity-95 hover:opacity-100 self-start md:self-auto mt-6 md:mt-0 bg-[#2fd6ff] text-white font-bold text-[15px] p-3 px-8 rounded-full">
               Subcribe
             </button>
           </div>
@@ -41,68 +41,66 @@ const Footer = () => {
                 <br /> <br />
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               </p>
-              {/* <p class="text-gray-300 flex items-center gap-3">
-                <i class="fa-solid fa-envelope text-[#2fd6ff]"></i>
-                <span class=""> fundar@company.com</span>
-              </p>
-              <p class="text-gray-300 flex items-center gap-3">
-                <i class="fa-solid fa-phone-volume text-[#2fd6ff]"></i>
-                <span class=""> + 99 (007) 867 473</span>
-              </p> */}
             </span>
 
             <span class="">
               <h1 class="uppercase text-sm font-bold tracking-wide py-1 md:py-2 mb-3 text-[#2fd6ff]">
-                Navigation
+                Services
               </h1>
               <ul class="flex flex-col gap-2">
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Recent causes
+                  Network Security
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  About us
+                  Data Protection
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Donation
+                  Anti-Malware Solutions
+                </li>
+                {/* <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
+                  Email Encryption
+                </li> */}
+                <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
+                  Password Management
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Latest news
-                </li>
-                <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Contact us
+                  Secure Browsing
                 </li>
               </ul>
             </span>
 
             <span class="">
               <h1 class="uppercase text-sm font-bold tracking-wide py-1 md:py-2 mb-3 text-[#2fd6ff]">
-                Campaigns
+                Support
               </h1>
               <ul class="flex flex-col gap-2">
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Child Cancer
+                  Contact Us
+                </li>
+                {/* <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
+                  Customer Support
+                </li> */}
+                <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
+                  Help Center
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Differently disabled
+                  Report an Issue
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Clean water
+                  Privacy Policy
                 </li>
                 <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Start fundraising
-                </li>
-                <li class="hover:underline cursor-pointer text-white opacity-75 text-[15px] hover:text-white">
-                  Give education
+                  Terms of Service
                 </li>
               </ul>
             </span>
 
             <span class="">
               <h1 class="uppercase text-sm font-bold tracking-wide py-1 md:py-2 mb-3 text-[#2fd6ff]">
-                Our Newsletter
+                Social Media
               </h1>
               <ul class="flex flex-row gap-3">
-                <li class="px-3.5 py-3.5 text-lg bg-[#2fd6ff] bg-opacity-15 flex justify-center items-center text-[#2fd6ff] hover:text-white cursor-pointer hover:shadow-xl rounded-full">
+                <li class="px-4 py-3.5 text-lg bg-[#2fd6ff] bg-opacity-15 flex justify-center items-center text-[#2fd6ff] hover:text-white cursor-pointer hover:shadow-xl rounded-full">
                   <i class="fa-brands fa-facebook-f"></i>
                 </li>
                 <li class="px-3.5 py-3.5 text-lg bg-[#2fd6ff] bg-opacity-15 flex justify-center items-center text-[#2fd6ff] hover:text-white cursor-pointer hover:shadow-xl rounded-full">
