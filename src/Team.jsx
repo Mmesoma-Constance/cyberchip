@@ -13,8 +13,8 @@ const Team = () => {
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Our Team</h1>
           <p className="pt-3 md:w-[55%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Get to know our team of experienced cybersecurity experts,
+            developers, and consultants committed to keeping you safe online
           </p>
 
           {/* box-container */}
@@ -33,8 +33,9 @@ const Team = () => {
                 Programmer, 7+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                Alexandra is a seasoned programmer skilled in multiple
+                languages, driving impactful software projects for over seven
+                years
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -68,8 +69,8 @@ const Team = () => {
                 Cyber Expertise, 12+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                Jane brings over a decade of experience in cybersecurity,
+                specializing in defending against digital threats
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -103,8 +104,8 @@ const Team = () => {
                 Hacker, 8+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                Lisa is an ethical hacker with over eight years of experience in
+                penetration testing and security auditing
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -138,8 +139,8 @@ const Team = () => {
                 Cyber Expertise, 10+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                Jonathan is a cybersecurity consultant with expertise in risk
+                assessment and digital protection strategies
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -173,8 +174,8 @@ const Team = () => {
                 Programmer, 9+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                With nearly a decade in development, Andrew builds innovative
+                web and mobile applications
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -208,8 +209,8 @@ const Team = () => {
                 Hacker, 7+ years experience
               </span>
               <p className="opacity-70">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Possimus, eveniet?
+                Sam is an ethical hacker with a focus on discovering and
+                resolving security vulnerabilities
               </p>
               <ul className="flex gap-4 pt-1">
                 <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">

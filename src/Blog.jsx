@@ -16,8 +16,8 @@ const Blog = () => {
             Latest Blog & Articles
           </h1>
           <p className="pt-3 md:w-[55%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Stay updated with the latest cybersecurity trends, tips, and
+            insights from our experts in the CyberPro blog
           </p>
 
           {/* box-container */}
@@ -37,7 +37,7 @@ const Blog = () => {
                   <p className="opacity-70 pt-3 text-[15px]">
                     Cybersecurity is crucial for safeguarding businesses in
                     today’s digital era. Learn how a strong defense protects
-                    your company, customers, and data integrity.
+                    your company.
                   </p>
                 </figcaption>
                 <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">

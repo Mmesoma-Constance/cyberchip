@@ -36,10 +36,11 @@ const Footer = () => {
               </h1>
 
               <p class="text-[15px] text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                adipisc deserunt fugiat impedit!
+                At CyberPro, we provide top-notch cybersecurity solutions to
+                protect against online threats.
                 <br /> <br />
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                We are a cybersecurity company dedicated to keeping you safe
+                online.
               </p>
             </span>
 

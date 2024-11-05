@@ -148,8 +148,8 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-4xl font-bold pt-5">About Us</h1>
           <p className="pt-3 md:w-[55%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Learn more about CyberPro's mission, values, and the passion driving
+            our team to deliver top-notch cybersecurity and technology solutions
           </p>
 
           {/* box-container */}
@@ -157,11 +157,11 @@ const Home = () => {
             className="flex flex-col lgSm:flex-row  lgSm:gap-16 items-center "
             data-aos="fade-up"
           >
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 lgSm:my-24 lgSm:w-[52%]">
-              <div
-                className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2"
-                data-aos="fade-up"
-              >
+            <div
+              className="grid grid-cols-1 sm:grid-cols-2 gap-5 my-10 lgSm:my-24 lgSm:w-[52%]"
+              data-aos="fade-up"
+            >
+              <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                 <span className="flex flow-row gap-3">
                   <i className="fa-solid fa-camera text-4xl text-[#2fd6ff] pb-3"></i>
                   <h3 className="text-2xl font-bold">
@@ -170,15 +170,12 @@ const Home = () => {
                 </span>
 
                 <p className="opacity-80 text-[15px] pt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt id eum provident.
+                  Real-time monitoring solutions to keep your premises secure
+                  and detect unauthorized activities
                 </p>
               </div>
 
-              <div
-                className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2"
-                data-aos="fade-up"
-              >
+              <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                 <span className="flex flow-row gap-3">
                   <i className="fa-solid fa-folder text-4xl text-[#2fd6ff] pb-3"></i>
                   <h3 className="text-2xl font-bold">
@@ -187,15 +184,12 @@ const Home = () => {
                 </span>
 
                 <p className="opacity-80 text-[15px] pt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt id eum provident.
+                  Protect sensitive folders from unauthorized access with our
+                  reliable security solutions
                 </p>
               </div>
 
-              <div
-                className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2"
-                data-aos="fade-up"
-              >
+              <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                 <span className="flex flow-row gap-3">
                   <i className="fa-solid fa-lock text-4xl text-[#2fd6ff] pb-3"></i>
                   <h3 className="text-2xl font-bold">
@@ -204,15 +198,12 @@ const Home = () => {
                 </span>
 
                 <p className="opacity-80 text-[15px] pt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt id eum provident.
+                  Complete encryption solutions that ensure data privacy from
+                  sender to recipient
                 </p>
               </div>
 
-              <div
-                className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2"
-                data-aos="fade-up"
-              >
+              <div className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-6 shadow-xl flex flex-col gap-2">
                 <span className="flex flow-row gap-3">
                   <i className="fa-solid fa-fingerprint text-4xl text-[#2fd6ff] pb-3"></i>
                   <h3 className="text-2xl font-bold">
@@ -221,33 +212,38 @@ const Home = () => {
                 </span>
 
                 <p className="opacity-80 text-[15px] pt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt id eum provident.
+                  Biometric security options that provide an extra layer of
+                  protection, accessible only to authorized users
                 </p>
               </div>
             </div>
             <div className="lgSm:w-[48%]">
-              <span className="font-semibold text-[#2fd6ff]">WHO ARE WE</span>
+              <span className="text-[#2fd6ff] font-semibold">WHO ARE WE</span>
               <h1 className="text-3xl font-bold pb-10">
                 Empowering Businesses <br /> Through Cyber Protection
               </h1>
               <p className="opacity-90 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-                odio tempora porro error non assumenda aliquam, velit
-                reprehenderit veniam, itaque hic,
+                We are a dedicated team focused on minimizing cybersecurity
+                risks for businesses. Our proactive approach and advanced tools
+                ensure you can focus on productivity without worrying about
+                cyber threats."
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                possimus, reprehenderit eveniet id accusamus minima saepe,
-                Expedita dolore ipsum doloremque officiis perferendis!
+                At CyberPro, we are dedicated to providing cutting-edge
+                cybersecurity solutions tailored to protect your business from
+                evolving threats. Our team of seasoned experts uses the latest
+                technology and best practices to ensure your data and systems
+                remain secure. We are committed to helping organizations
+                navigate the complex world of cybersecurity with ease and
+                confidence.
               </p>
               <br />
-              <p className="opacity-90">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestias, voluptatem fugiat distinctio doloribus accusantium
-                fugit aliquid numquam autem sequi. Est.
-              </p>
-              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-10 text-lg mt-10 rounded-full">
+              {/* <p className="opacity-90">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias, voluptatem fugiat distinctio doloribus accusantium
+                  fugit aliquid numquam autem sequi. Est.
+                </p> */}
+              <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2.5 px-10 text-lg mt-10 lg:mt-0 rounded-full">
                 Get Started
               </button>
             </div>
@@ -264,8 +260,9 @@ const Home = () => {
         >
           <h1 className="text-4xl font-bold pt-5">Services</h1>
           <p className="pt-3 w-[80%] md:w-[50%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Explore our wide range of services, from cybersecurity consulting to
+            ethical hacking, designed to protect your business from evolving
+            threats
           </p>
 
           {/* box-container */}
@@ -274,62 +271,63 @@ const Home = () => {
             data-aos="fade-up"
           >
             <div
-              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-wifi text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Office Network Security</h3>
               <p className="opacity-80 text-[15px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione adipisci
+                Safeguard your office network with comprehensive security
+                measures to protect against intrusions and unauthorized access,
+                ensuring your organization's data remains secure.
               </p>
-              <button className="opacity-95 hover:opacity-100 text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
+              <button className="text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
                 Read more &#8594;
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-bug-slash text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Anti-Malware</h3>
               <p className="opacity-80 text-[15px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione adipisci
+                Stay protected from malicious software with advanced
+                anti-malware solutions that detect, prevent, and remove threats
+                before they can cause harm.
               </p>
-              <button className="opacity-95 hover:opacity-100 text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
+              <button className="text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
                 Read more &#8594;
               </button>
             </div>{" "}
             <div
-              className="bg-[#2fd6ff] bg-opacity-30  rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-[330px] rounded-xl text-white p-8 shadow-xl flex flex-col gap-2"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-file-shield text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Data Protection</h3>
               <p className="opacity-80 text-[15px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione adipisci
+                Our data protection services ensure that your critical
+                information is always secure, with backup, encryption, and
+                recovery strategies that prevent data loss and unauthorized
+                access.
               </p>
-              <button className="opacity-95 hover:opacity-100 text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
+              <button className="text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
                 Read more &#8594;
               </button>
             </div>
             <div
-              className="bg-[#2fd6ff] bg-opacity-30   rounded-xl text-white p-8 shadow-xl hidden md:flex md:flex-col lg:hidden gap-2"
+              className="bg-[#2fd6ff] bg-opacity-30 h-[330px]  rounded-xl text-white p-8 shadow-xl  gap-2 hidden md:flex md:flex-col lg:hidden"
               data-aos="fade-up"
             >
               <i className="fa-solid fa-key text-[45px] text-[#2fd6ff] pb-3"></i>
               <h3 className="text-2xl font-bold">Password Manager</h3>
               <p className="opacity-80 text-[15px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                dolore repudiandae doloribus voluptatem. Exercitationem quia ut
-                quae reiciendis repellat. Ipsam quis doloremque ratione adipisci
+                Simplify and secure your passwords with our password management
+                tools, which help you create, store, and organize complex
+                passwords securely.
               </p>
-              <button className="opacity-95 hover:opacity-100 text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
+              <button className="text-[#2fd6ff] text-lg self-start font-bold bg-transparent hover:font-bold mt-5">
                 Read more &#8594;
               </button>
             </div>
@@ -349,18 +347,15 @@ const Home = () => {
         data-aos="fade-up"
       >
         <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
-        <p className="pt-2 w-[80%] md:w-[65%] text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-          pariatur deleniti officiis, voluptate placeat fugiat quam provident
+        <p className="pt-2  md:w-[65%] text-center">
+          Discover flexible pricing plans tailored to meet your needs, whether
+          you’re a startup or an enterprise
         </p>
 
         {/* box-container */}
-        <div
-          className="grid grid-cols-1 md:grid-cols-2 lgSm:grid-cols-3 w-full justify-center gap-10 lgSm:gap-0 items-center mx-auto mt-10 md:mt-20 my-20"
-          data-aos="fade-up"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-center gap-10 md:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
           <div
-            className="bg-[#2fd6ff] bg-opacity-30 w-[320px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
+            className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
             data-aos="fade-up"
           >
             {/* <img src={logo} alt="" className="w-28" /> */}
@@ -372,23 +367,23 @@ const Home = () => {
             <ul className="flex flex-col gap-2 pt-3">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Basic Threat Monitoring</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">24/7 Support</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Secure Data Backup</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Firewall Protection</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Basic Vulnerability Scanning</span>
               </li>
             </ul>
             <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
@@ -396,7 +391,7 @@ const Home = () => {
             </button>
           </div>
           <div
-            className="bg-[#2fd6ff] bg-opacity-40 w-[320px]  h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
+            className="bg-[#2fd6ff] bg-opacity-40 w-[320px] h-[460px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto"
             data-aos="fade-up"
           >
             {/* <img src={logo} alt="" className="w-28" /> */}
@@ -408,30 +403,33 @@ const Home = () => {
             <ul className="flex flex-col gap-2 pt-3">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Advanced Threat Detection</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">24/7 Support</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Data Encryption</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Intrution Prevention</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Basic Vulnerability Scanning</span>
               </li>
             </ul>
             <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
               Get Started
             </button>
           </div>
-          <div className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 ">
+          <div
+            className="bg-[#2fd6ff] bg-opacity-30 w-[320px] rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 justify-center text-center items-center mx-auto opacity-90 "
+            data-aos="fade-up"
+          >
             {/* <img src={logo} alt="" className="w-28" /> */}
             <h3 className="font-semibold text-lg">Professional</h3>
             <div className="leading-tight">
@@ -441,23 +439,23 @@ const Home = () => {
             <ul className="flex flex-col gap-2 pt-3">
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Full Threat Management</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Dedicated Security Expert</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Secure Data Backup</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Firewall Protection</span>
               </li>
               <li className="flex gap-1.5 items-center">
                 <i className="fa-solid fa-circle-check text-[#2fd6ff]"></i>
-                <span className="opacity-80">Lorem ipsum dolor sit amet</span>
+                <span className="opacity-80">Firewall, IPS, and IDS</span>
               </li>
             </ul>
             <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2 px-6 rounded-full mt-4">
@@ -475,8 +473,8 @@ const Home = () => {
         >
           <h1 className="text-4xl font-bold pt-5">Our Team</h1>
           <p className="pt-3 w-[80%] md:w-[50%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Get to know our team of experienced cybersecurity experts,
+            developers, and consultants committed to keeping you safe online
           </p>
         </div>
 
@@ -498,8 +496,8 @@ const Home = () => {
               Programmer, 7+ years experience
             </span>
             <p className="opacity-70">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, eveniet?
+              Alexandra is a seasoned programmer skilled in multiple languages,
+              driving impactful software projects for over seven years
             </p>
             <ul className="flex gap-4 pt-1">
               <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -533,8 +531,8 @@ const Home = () => {
               Cyber Expertise, 12+ years experience
             </span>
             <p className="opacity-70">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, eveniet?
+              Jane brings over a decade of experience in cybersecurity,
+              specializing in defending against digital threats
             </p>
             <ul className="flex gap-4 pt-1">
               <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -568,8 +566,8 @@ const Home = () => {
               Hacker, 8+ years experience
             </span>
             <p className="opacity-70">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, eveniet?
+              Lisa is an ethical hacker with over eight years of experience in
+              penetration testing and security auditing
             </p>
             <ul className="flex gap-4 pt-1">
               <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -599,13 +597,13 @@ const Home = () => {
               className="w-40 h-40 rounded-full object-cover"
               alt=""
             />
-            <h2 className="font-bold text-[22px]">Andrew Park</h2>
+            <h2 className="font-bold text-[22px]">Jonathan C.</h2>
             <span className="text-sm font-semibold">
-              Programmer, 9+ years experience
+              Cyber Expertise, 10+ years experience
             </span>
             <p className="opacity-70">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Possimus, eveniet?
+              Jonathan is a cybersecurity consultant with expertise in risk
+              assessment and digital protection strategies
             </p>
             <ul className="flex gap-4 pt-1">
               <li className="text-[#2fd6ff] text-lg hover:text-white cursor-pointer">
@@ -643,8 +641,8 @@ const Home = () => {
           Latest Blog & Articles
         </h1>
         <p className="pt-3 w-[80%] md:w-[55%] text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-          pariatur deleniti officiis, voluptate placeat fugiat quam provident
+          Stay updated with the latest cybersecurity trends, tips, and insights
+          from our experts in the CyberPro blog
         </p>
         <div
           className="flex flex-wrap md:grid md:grid-cols-2 lg:grid-cols-3  gap-8 justify-center items-center mx-auto mt-10 md:mt-20 mb-10 w-[80%]"
@@ -663,9 +661,9 @@ const Home = () => {
                 </h3>
 
                 <p className="opacity-70 pt-3 text-[15px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima est, libero cum similique corporis quidem nisi odit
-                  earum eius ipsam?
+                  Cybersecurity is crucial for safeguarding businesses in
+                  today’s digital era. Learn how a strong defense protects your
+                  company.
                 </p>
               </figcaption>
               <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
@@ -686,9 +684,9 @@ const Home = () => {
                 </h3>
 
                 <p className="opacity-70 pt-3 text-[15px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima est, libero cum similique corporis quidem nisi odit
-                  earum eius ipsam?
+                  From phishing to ransomware, cyber threats are more dangerous
+                  than ever. Discover the top risks and how your business can
+                  stay protected.
                 </p>
               </figcaption>
               <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
@@ -709,9 +707,9 @@ const Home = () => {
                 </h3>
 
                 <p className="opacity-70 pt-3 text-[15px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima est, libero cum similique corporis quidem nisi odit
-                  earum eius ipsam?
+                  Encryption is a powerful tool for data security. See how it
+                  protects sensitive information and helps you maintain customer
+                  trust.
                 </p>
               </figcaption>
               <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">
@@ -719,6 +717,7 @@ const Home = () => {
               </button>
             </figure>
           </div>
+
           <div className="hidden md:flex lg:hidden" data-aos="fade-up">
             <figure className="w-[330px] md:w-auto">
               <img
@@ -732,9 +731,9 @@ const Home = () => {
                 </h3>
 
                 <p className="opacity-70 pt-3 text-[15px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Minima est, libero cum similique corporis quidem nisi odit
-                  earum eius ipsam?
+                  Effective cybersecurity doesn’t have to be expensive. Here are
+                  simple, budget-friendly ways for small businesses to stay
+                  secure.
                 </p>
               </figcaption>
               <button className="text-[#2fd6ff] text-lg self-start font-semibold bg-transparent hover:font-bold mt-5">

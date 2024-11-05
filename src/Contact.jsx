@@ -8,8 +8,8 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Contact Us</h1>
           <p className="pt-3 md:w-[55%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Have questions? Reach out to our team to learn more about how
+            CyberPro can help secure your digital assets
           </p>
 
           {/* box-container */}
@@ -21,7 +21,8 @@ const Contact = () => {
             <div className="">
               <h1 className="font-bold text-xl">GET IN TOUCH</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore?
+                Fill out the form below, and we’ll get back to you as soon as
+                possible!
               </p>
               <form action="" className="mt-10 flex flex-col gap-4">
                 <input

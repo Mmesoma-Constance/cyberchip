@@ -9,9 +9,9 @@ const About = () => {
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-4xl font-bold pt-5">About Us</h1>
             <p className="pt-3 md:w-[55%] text-center">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-              pariatur deleniti officiis, voluptate placeat fugiat quam
-              provident
+              Learn more about CyberPro's mission, values, and the passion
+              driving our team to deliver top-notch cybersecurity and technology
+              solutions
             </p>
 
             {/* box-container */}
@@ -80,7 +80,7 @@ const About = () => {
                 </div>
               </div>
               <div className="lgSm:w-[48%]">
-                <span className="">WHO ARE WE</span>
+                <span className="text-[#2fd6ff] font-semibold">WHO ARE WE</span>
                 <h1 className="text-3xl font-bold pb-10">
                   Empowering Businesses <br /> Through Cyber Protection
                 </h1>
@@ -91,17 +91,21 @@ const About = () => {
                   about cyber threats."
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                  possimus, reprehenderit eveniet id accusamus minima saepe,
-                  Expedita dolore ipsum doloremque officiis perferendis!
+                  At CyberPro, we are dedicated to providing cutting-edge
+                  cybersecurity solutions tailored to protect your business from
+                  evolving threats. Our team of seasoned experts uses the latest
+                  technology and best practices to ensure your data and systems
+                  remain secure. We are committed to helping organizations
+                  navigate the complex world of cybersecurity with ease and
+                  confidence.
                 </p>
                 <br />
-                <p className="opacity-90">
+                {/* <p className="opacity-90">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestias, voluptatem fugiat distinctio doloribus accusantium
                   fugit aliquid numquam autem sequi. Est.
-                </p>
-                <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2.5 px-10 text-lg mt-10 rounded-full">
+                </p> */}
+                <button className="opacity-95 hover:opacity-100 bg-[#2fd6ff] p-2.5 px-10 text-lg mt-10 lg:mt-0 rounded-full">
                   Get Started
                 </button>
               </div>
@@ -164,13 +168,16 @@ const About = () => {
             <div className="flex gap-2 self-start ">
               <ul className="">
                 <li className="font-bold text-lg">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing
+                  Our Mission : Securing Your Digital Future with CyberPro
                 </li>
                 <li className="">
                   <p className="opacity-75 pt-3">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta iure tempore esse. Temporibus ea nobis rerum dolor
-                    cum numquam doloremque.
+                    Our mission is to empower businesses to operate securely in
+                    an increasingly digital world. We believe that every
+                    organization, no matter the size, deserves the peace of mind
+                    that comes with robust cybersecurity defenses. At CyberPro,
+                    we work tirelessly to safeguard your assets, data, and
+                    reputation by staying ahead of cyber threats.
                   </p>
                 </li>
               </ul>
@@ -178,13 +185,16 @@ const About = () => {
             <div className="flex gap-2 self-start ">
               <ul className="">
                 <li className="font-bold text-lg">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing
+                  Our Values : Driven by Integrity, Innovation, and Excellence
                 </li>
                 <li className="">
                   <p className="opacity-75 pt-3">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta iure tempore esse. Temporibus ea nobis rerum dolor
-                    cum numquam doloremque.
+                    At CyberPro, our core values define everything we do. We are
+                    committed to upholding the highest standards of integrity,
+                    constantly innovating to stay ahead of cyber threats, and
+                    delivering excellence in every project. Our clients trust us
+                    to protect what matters most, and we honor that trust with
+                    dedication and transparency in all our services.
                   </p>
                 </li>
               </ul>
@@ -192,13 +202,16 @@ const About = () => {
             <div className="flex gap-2 self-start ">
               <ul className="">
                 <li className="font-bold text-lg">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing
+                  Our Impact : Securing Businesses, Empowering Growth
                 </li>
                 <li className="">
                   <p className="opacity-75 pt-3">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta iure tempore esse. Temporibus ea nobis rerum dolor
-                    cum numquam doloremque.
+                    CyberPro has helped countless businesses secure their
+                    operations, allowing them to focus on what they do best. By
+                    safeguarding our clients’ data and digital infrastructure,
+                    we enable them to grow and thrive in today’s competitive
+                    market. Our impact goes beyond security – we empower
+                    organizations to innovate without fear.
                   </p>
                 </li>
               </ul>

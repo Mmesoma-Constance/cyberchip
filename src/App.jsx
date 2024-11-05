@@ -18,7 +18,7 @@ import ScrollToTop from "./ScrollToTop";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 900, // Animation duration in milliseconds
+      duration: 700, // Animation duration in milliseconds
       easing: "ease-in-out", // Animation easing
       once: false,
     });

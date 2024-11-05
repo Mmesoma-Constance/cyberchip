@@ -11,12 +11,12 @@ const Pricing = () => {
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Pricing Plans</h1>
           <p className="pt-2 lg:w-[50%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, quam provident
+            Discover flexible pricing plans tailored to meet your needs, whether
+            you’re a startup or an enterprise
           </p>
 
           {/* box-container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-center gap-10 md:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
+          <div className="grid grid-cols-1 mdMd:grid-cols-2 lgSm:grid-cols-3 w-full justify-center gap-10 mdMd:gap-0 items-center mx-auto mt-10 md:mt-20 my-20">
             <div
               className="bg-[#2fd6ff] bg-opacity-30 w-[320px]  rounded-xl text-white p-10 shadow-xl flex flex-col gap-2 opacity-90 justify-center text-center items-center mx-auto"
               data-aos="zoom-in"
@@ -205,9 +205,10 @@ const Pricing = () => {
                 Frequently Asked Questions
               </h1>
               <p className="opacity-80 text-[16px]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-                odio tempora porro error non assumenda aliquam, velit
-                reprehenderit veniam, itaque hic,
+                At CyberPro, we prioritize your understanding of cybersecurity
+                issues. To assist you further, we've curated a list of
+                frequently asked questions that cover a range of topics related
+                to our services and cybersecurity best practices.
               </p>
             </div>
           </div>

@@ -9,8 +9,9 @@ const Services = () => {
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold pt-5">Services</h1>
           <p className="pt-3  md:w-[55%] text-center">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-            pariatur deleniti officiis, voluptate placeat fugiat quam provident
+            Explore our wide range of services, from cybersecurity consulting to
+            ethical hacking, designed to protect your business from evolving
+            threats
           </p>
 
           {/* box-container */}

@@ -38,7 +38,7 @@ const Accordion = () => {
             </h1>
             <ul>
               <li
-                className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer w-[300px] md:w-[450px] flex justify-between"
+                className="font-semibold bg-[#00b3b3] bg-opacity-35 p-5 cursor-pointer w-[300px] sm:w-[450px] flex justify-between"
                 onClick={() => toggleItem(index)}
               >
                 <span>{item.title}</span>
@@ -51,7 +51,7 @@ const Accordion = () => {
                 </span>
               </li>
               {openIndex === index && (
-                <li className="p-5 shadow-xl bg-[#00b3b3] bg-opacity-20 w-[300px] md:w-[450px] ">
+                <li className="p-5 shadow-xl bg-[#00b3b3] bg-opacity-20 w-[300px] sm:w-[450px] ">
                   <p>{item.content}</p>
                 </li>
               )}
